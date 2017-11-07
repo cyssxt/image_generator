@@ -96,4 +96,9 @@ function draw(){
 //    $fontSize = property_exists($detail,"fontSize")?$detail->fontSize:null;
 //}
 
-draw();
+//draw();
+function test1(){
+    $cy = new CyLang(Array("a"=>Array("bb"=>"cccccc"),"b"=>"c"));
+    echo $cy->parseAll("##strlen('{{a.bb}}')##");
+}
+test1();

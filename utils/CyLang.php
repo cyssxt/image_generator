@@ -8,7 +8,7 @@
 
 class CyLang{
     private $param_reg='/\{\{([^#{}]+)\}\}/';
-    private $fun_reg='/:##([^,]+)##/';
+    private $fun_reg='/##(.*\))##/';
 //    private $param_reg='/(aaa)/';
     private $json = null;
 
