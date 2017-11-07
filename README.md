@@ -41,7 +41,7 @@ echo $cy->parseAll("##strlen('{{a.bb}}')##");
 </pre>
 
 
-## image generatory 使用 ##
+## image generator 使用 ##
 首先生成配置json文件如下
 <pre>
 <code>
