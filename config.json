@@ -1,0 +1,12 @@
+{
+  "config": {
+    "colors": {
+      "jin": "#deba34",
+      "mu": "#7ed321",
+      "shui": "#35beff",
+      "huo": "#ff6029",
+      "tu": "#a68406"
+    },
+    "textWidth":"319"
+  }
+}
